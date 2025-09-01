@@ -34,8 +34,8 @@ jobs:
         docker push ${{ secrets.DOCKERHUB_USERNAME }}/result-app:latest
 
         # Vote (Python)
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/vote-app:latest ./vote
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/vote-app:latest
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/voting-app:latest ./vote
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/voting-app:latest
 
     # 4. Configure AWS credentials
     - name: Configure AWS Credentials
@@ -43,7 +43,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ap-south-1   # 👈 update to your region
+        aws-region: ap-south-1   
 
     # 5. Install eksctl (for kubeconfig setup)
     - name: Install eksctl
