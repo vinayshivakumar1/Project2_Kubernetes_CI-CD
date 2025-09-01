@@ -906,11 +906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\inay_umar\\ironhack-project-1\\worker\\Worker.csproj",
+      "projectUniqueName": "\\\\wsl.localhost\\Ubuntu\\home\\inay_umar\\project_CICD\\Project2_Kubernetes_CI-CD\\worker\\Worker.csproj",
       "projectName": "Worker",
-      "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\inay_umar\\ironhack-project-1\\worker\\Worker.csproj",
+      "projectPath": "\\\\wsl.localhost\\Ubuntu\\home\\inay_umar\\project_CICD\\Project2_Kubernetes_CI-CD\\worker\\Worker.csproj",
       "packagesPath": "C:\\Users\\Vinay Kumar\\.nuget\\packages\\",
-      "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\inay_umar\\ironhack-project-1\\worker\\obj\\",
+      "outputPath": "\\\\wsl.localhost\\Ubuntu\\home\\inay_umar\\project_CICD\\Project2_Kubernetes_CI-CD\\worker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vinay Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
